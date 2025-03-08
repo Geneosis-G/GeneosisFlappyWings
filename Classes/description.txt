@@ -1,0 +1,39 @@
+I believe I can fly!
+
+After years of evolution they finally made it... The ostrich and the penguin learnt to fly!
+
+[b]FEATURES[/b]
+- Flappy Wings: Animals with wings can fly for real.
+
+[b]COMMANDS[/b]
+- [b]2x[JumpKey]:[/b] Start flying.
+- [b]Flying + [JumpKey]:[/b] Keep pressing to stop flying.
+
+[b]CHARACTERISTICS[/b]
+- This mutator have no effect alone, it needs to be combined with a bird mutator (Feather Goat or Classy Goat).
+- If you fly close to the ground you will land automatically.
+- If you go ragdoll when flying you will fall.
+
+[b]EASTER EGGS[/b]
+- [spoiler]Another animal also learnt to fly... Hint:[/spoiler][spoiler] This animal used to fall from the sky with a flower pot.[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- You can't move fast when you fly up or down.
+
+[b]FAQ[/b]
+[i]Before starting any of the following steps [b]close Goat Simulator[/b][/i].
+
+- How do I use this mod?
+[i]First hit the [+ Subscribe] button on this page to download the mod. After doing that Steam should start downloading the mod (you can see the progress at the bottom of your Steam window), wait for the download to complete before starting your game. In the main menu of the game, select Custom Game, then you will see a list of all the mutators installed on your computer. Click on the mutators you want in this list to add them to your goat.[/i]
+
+- The mod is installed but does nothing when I use it, what should I do?
+[i]Unsubscribe to the mod, Steam will update the game wait for the end of this update before doing the next steps. Open the file "C:\ Program Files (x86) \Steam \SteamApps \common \GoatSimulator \GoatGame \Config \GoatMod.ini" (or "GoatMod") with notepad and delete its content. Read the preview instructions if you want to reinstall the mod.[/i]
+
+- My game is crashing at startup, what do I do?
+[i]Try to follow [url=http://steamcommunity.com/sharedfiles/filedetails/?id=247411111]this guide[/url] and see if it fixed your problem. If not, I don't think I can do anything more sorry.[/i]
+
+[b]DEV NOTES[/b]
+[quote=About this mod]That was a fun mod to code ^^ I already made a goat fly in the Ghost Goat mod so I reused the base of this mechanism.
+The main challenge was to keep the physics and the controls stable when you start or stop flying. I got it working in a few hours, with a custom "landing" detection because of course the engine don't detect it automatically when you are flying >_<
+Then I had to activate the "fly" animation on the bird but the game definitely wanted to play the original "walk" and "run" animations instead... So I ended up removing all the animations of the pawn during flight and replacing them by the fly animation only.
+[/quote]
